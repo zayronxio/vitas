@@ -4,7 +4,7 @@ Inherits=Zafiro-icons,breeze,gnome,hicolor
 
 
 # Directory list
-Directories=apps/64
+Directories=apps/64,panel/16,panel/22,panel/24
 
 [apps/64]
 Size=64
@@ -12,3 +12,18 @@ Context=Applications
 MinSize=25
 MaxSize=512
 Type=Scalable
+
+[panel/16]
+Context=Status
+Size=16
+Type=Fixed
+
+[panel/22]
+Context=Status
+Size=22
+Type=Fixed
+
+[panel/24]
+Context=Status
+Size=24
+Type=Fixed
